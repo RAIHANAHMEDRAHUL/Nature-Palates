@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/icons8-leaf-64.png" type="image/x-icon">
+    <title> Nature Plates</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<style>
+  .sora{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  
+}
+.radius{
+  border-radius: 8px;
+}
+</style>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          'button-color': '#179800',
+          'text-co': '#179800',
+          'ba ': '#111111',
+          'linear ': '#EFEBE3',
+          'backoo': 'rgba(224, 206, 160, 1)',
+
+        }
+      }
+    }
+  }
+</script>
+</head>
+<body class="sora">
+    <header class="container mx-auto ">
+        <nav class="">
+          <div class="navbar bg-base-100 max-sm:pb-5 max-sm:border-b-2 border-green-500 ">
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-xl md:hidden lg:hidden -mt-4 "> <img src="./image/2.png" alt=""></a>
+              
+              <a class="btn btn-ghost text-xl max-sm:hidden"> <img src="./image/logo-header.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li>
+                  <a>Services</a>
+                </li>
+                <li><a>Contract Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-1.5">
+              <a class="btn max-sm:hidden"><img src="./image/icons8-search-30.png" alt="" "></a>
+              <a class="btn max-sm:hidden"><img src="./image/icons8-shopping-cart-50.png" alt="" ></a>
+              <a class="btn btn-outline btn-success max-sm:hidden radius mr-3">Login</a>
+              <a class="btn bg-button-color max-sm:hidden radius">Register</a>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden mt-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- banner section -->
+        <div class="flex flex-col justify-center items-center text-center bg-gradient-to-t from-text-co	pt-20 gap-8">
+        <h1 class="text-6xl font-semibold">
+          <span>Freshness</span> <span class="text-text-co"> You Can
+        <br>Count </span> <span>On, Prices You'll Love!</span>
+        </h1>
+        <p class="text-xl text-ba">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we've got you covered every day!
+        </p>
+        <div>
+          <img class="lg:w-[1000px] lg:h-[800px]" src="./image/hero-vegetables.png" alt="">
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto ">
+      <!-- services -->
+      <section class="">
+        <h2 class="text-4xl font-semibold text-text-co mt-36 max-sm:mx-5 mb-11">
+          Services
+        </h2>
+        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:gap-5">
+          <div class="card bg-backoo lg:w-[424px] shadow-2xl max-sm:mx-5 ">
+            <div class="card-body gap-6 flex justify-center items-center text-center">
+              <img src="./image/service.png" alt="" class="w-36 bg rounded-full bg-white p-4">
+              <h2 class="card-title">24/7 Services </h2>
+              <p class="text-ba">🌟 24/7 Service, Anytime, Anywhere. Because Your Needs Never Sleep! ⏰🚀</p>
+              <div class="card-actions justify-end">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card bg-backoo lg:w-[424px] shadow-2xl max-sm:mx-5 ">
+            <div class="card-body gap-6 flex justify-center items-center text-center">
+              <img src="./image/service.png" alt="" class="w-36 bg rounded-full bg-white p-4">
+              <h2 class="card-title">24/7 Services </h2>
+              <p class="text-ba">🌟 24/7 Service, Anytime, Anywhere. Because Your Needs Never Sleep! ⏰🚀</p>
+              <div class="card-actions justify-end">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card bg-backoo lg:w-[424px] shadow-2xl max-sm:mx-5 ">
+            <div class="card-body gap-6 flex justify-center items-center text-center">
+              <img src="./image/service.png" alt="" class="w-36 bg rounded-full bg-white p-4">
+              <h2 class="card-title">24/7 Services </h2>
+              <p class="text-ba">🌟 24/7 Service, Anytime, Anywhere. Because Your Needs Never Sleep! ⏰🚀</p>
+              <div class="card-actions justify-end">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
