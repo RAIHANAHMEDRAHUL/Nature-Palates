@@ -1,0 +1,29 @@
+<footer>
+      <div class="bg-text-co w-full h-[658px] mx-auto flex
+      items-center lg:flex-">
+        <div class=" text-white lg:text-xl font-normal "> 
+          <div class="">
+            <img src="./image/logo-footer.png" alt="" class="mb-4">
+            <p class="">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+          </div>
+          <div class="">
+            <nav>
+              <a class="link link-hover mb-12">Product</a><br>
+              <a class="link link-hover mb-12">Services</a><br>
+              <a class="link link-hover mb-12">Contract Us</a>
+            </nav>
+          </div>
+          <div class="">
+            <h2 class="">Follow Us</h2><br>
+            <div class=" flex grayscale">
+            <img src="./image/icons8-facebook-50.png" alt="" class="w-7" >
+            <img src="./image/icons8-instagram-50.png" alt="" class="w-7" >
+            <img src="./image/icons8-youtube-50.png" alt="" class="w-7" >
+            <img src="./image/icons8-whatsapp-50.png" alt="" class="w-7" >
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </footer>
